@@ -1,0 +1,49 @@
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  background: rgb(135, 96, 7);
+  text-align: center;
+  width: 300px;
+  margin: 10px 30px;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 20px 10px;
+  box-shadow: 0px 0px 35px #0009;
+  border-radius: 8px;
+}
+  .green_card {
+    background-color: rgb(111, 222, 0);
+  }
+  .blue_card {
+    background-color: rgb(37, 198, 198);
+  }
+
+.card_title {
+  font-size: 22px;
+  margin: 0;
+}
+
+.card_subtitle {
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.card_content {
+  font-size: 9px;
+  padding: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: justify;
+}
+
+.card_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
